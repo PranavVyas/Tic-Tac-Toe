@@ -213,21 +213,7 @@ int main(){
                 }
             }
         }
-        if(a[0][0]==a[1][1]){
-            if(a[1][1]==a[2][2]){
-                if(a[2][2]==111){
-                    printf("\n%s is winner \n",name1);
-                    printf("The Game ends now \n");
-                    i=11;
-                    printf("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
-                }else if(a[2][2]==120){
-                    printf("\n%s is winner  \n",name2);
-                    printf("The Game ends now \n");
-                    i=11;
-                    printf("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
-                }
-            }
-        }else if(a[0][2]==a[1][1]){
+        if(a[0][2]==a[1][1]){
             if(a[1][1]==a[2][0]){
                 if(a[0][2]==111){
                     printf("\n%s is winner \n",name1);
@@ -235,6 +221,20 @@ int main(){
                     i=11;
                     printf("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
                 }else if(a[0][2]==120){
+                    printf("\n%s is winner  \n",name2);
+                    printf("The Game ends now \n");
+                    i=11;
+                    printf("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+                }
+            }
+        }else if(a[0][0]==a[1][1]){
+            if(a[1][1]==a[2][2]){
+                if(a[2][2]==111){
+                    printf("\n%s is winner \n",name1);
+                    printf("The Game ends now \n");
+                    i=11;
+                    printf("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+                }else if(a[2][2]==120){
                     printf("\n%s is winner  \n",name2);
                     printf("The Game ends now \n");
                     i=11;
